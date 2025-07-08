@@ -2,6 +2,12 @@
 
 A Smart Todo List application built with modern React tools, offering real-time task management, status categorization, and smooth UX with animations and spinners.
 
+## 🚀 Live Demo
+
+🔗 **Hosted on Netlify**: https://smart-task-list.netlify.app/
+
+> ⚠️ Note: The production version is frontend-only. API functionality is powered by MSW (Mock Service Worker) and works only in local development. See below for details.
+
 **🚀 Tech Stack & Libraries**
 
 React – Component-based UI
