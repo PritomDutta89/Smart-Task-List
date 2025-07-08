@@ -1,10 +1,13 @@
 import Todo from "./components/Todo";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+const queryClient = new QueryClient();
 
 const App = () => {
   return (
-    <div>
+    <QueryClientProvider client={queryClient}>
       <Todo />
-    </div>
+    </QueryClientProvider>
   );
 };
 

@@ -1,12 +1,100 @@
-# React + Vite
+✅ Smart Todo List App
+A Smart Todo List application built with modern React tools, offering real-time task management, status categorization, and smooth UX with animations and spinners.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tech Stack & Libraries
+React – Component-based UI
 
-Currently, two official plugins are available:
+Tailwind CSS – Utility-first styling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React Query – Efficient data fetching & caching
 
-## Expanding the ESLint configuration
+Axios – HTTP requests
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React Spinners – Elegant loading indicators
+
+React Toastify – Toast notifications
+
+Context API – Global state management (Redux-ready)
+
+Date-fns – Human-readable time formatting
+
+Framer Motion (optional) – Add animations (can be integrated easily)
+
+🧠 Features
+📝 Add, edit, delete, and complete tasks
+
+🔄 Automatic task status: Ongoing, Success, or Failure
+
+✅ Status toggling (complete/undo)
+
+⏳ Deadline-aware task tracking
+
+🔃 Auto data refetching (every 60s)
+
+💬 Real-time UI updates via React Query
+
+🌐 Toast messages for all actions
+
+💡 Context API usage for shared state
+
+⚙️ Getting Started
+
+1. Clone the Repo
+
+git clone https://github.com/your-username/Smart-Task-List.git
+cd Smart-Task-List
+
+2. Install Dependencies
+
+npm install
+
+3. Set up Backend API
+Ensure your backend exposes a REST API at /api/tasks with:
+
+GET /api/tasks
+
+POST /api/tasks
+
+PUT /api/tasks/:id
+
+DELETE /api/tasks/:id
+
+You can mock this using tools like JSON Server, Express, or connect it to your existing backend.
+
+3. Set up Backend API
+Ensure your backend exposes a REST API at /api/tasks with:
+
+GET /api/tasks
+
+POST /api/tasks
+
+PUT /api/tasks/:id
+
+DELETE /api/tasks/:id
+
+You can mock this using tools like JSON Server, Express, or connect it to your existing backend.
+
+3. Set up Backend API
+Ensure your backend exposes a REST API at /api/tasks with:
+
+GET /api/tasks
+
+POST /api/tasks
+
+PUT /api/tasks/:id
+
+DELETE /api/tasks/:id
+
+You can mock this using tools like JSON Server, Express, or connect it to your existing backend.
+
+4. Run the App
+
+npm run dev
+
+
+📌 Author
+
+Built with ❤️ by Pritom Dutta
+
+
+

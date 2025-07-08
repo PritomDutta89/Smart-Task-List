@@ -21,10 +21,10 @@ const TaskItem = ({ task, onToggle, onDelete, onUpdate }) => {
   };
 
   return (
-    <div className="border rounded p-4 shadow flex flex-col gap-2">
+    <div className="border rounded p-4 shadow flex flex-col gap-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-100">
       {!isEditing ? (
         <>
-          <div className="flex justify-between items-start">
+          <div className="flex flex-col gap-[1rem] items-start ">
             <div>
               <h3 className="text-lg font-semibold">{task.title}</h3>
               {task.description && (
