@@ -1,7 +1,9 @@
-✅ Smart Todo List App
+**✅ Smart Todo List App**
+
 A Smart Todo List application built with modern React tools, offering real-time task management, status categorization, and smooth UX with animations and spinners.
 
-🚀 Tech Stack & Libraries
+**🚀 Tech Stack & Libraries**
+
 React – Component-based UI
 
 Tailwind CSS – Utility-first styling
@@ -18,9 +20,8 @@ Context API – Global state management (Redux-ready)
 
 Date-fns – Human-readable time formatting
 
-Framer Motion (optional) – Add animations (can be integrated easily)
+**🧠 Features**
 
-🧠 Features
 📝 Add, edit, delete, and complete tasks
 
 🔄 Automatic task status: Ongoing, Success, or Failure
@@ -37,18 +38,20 @@ Framer Motion (optional) – Add animations (can be integrated easily)
 
 💡 Context API usage for shared state
 
-⚙️ Getting Started
+**⚙️ Getting Started**
 
 1. Clone the Repo
 
 git clone https://github.com/your-username/Smart-Task-List.git
+
 cd Smart-Task-List
 
 2. Install Dependencies
 
 npm install
 
-3. Set up Backend API
+**3. Set up Backend API**
+
 Ensure your backend exposes a REST API at /api/tasks with:
 
 GET /api/tasks
@@ -61,38 +64,12 @@ DELETE /api/tasks/:id
 
 You can mock this using tools like JSON Server, Express, or connect it to your existing backend.
 
-3. Set up Backend API
-Ensure your backend exposes a REST API at /api/tasks with:
-
-GET /api/tasks
-
-POST /api/tasks
-
-PUT /api/tasks/:id
-
-DELETE /api/tasks/:id
-
-You can mock this using tools like JSON Server, Express, or connect it to your existing backend.
-
-3. Set up Backend API
-Ensure your backend exposes a REST API at /api/tasks with:
-
-GET /api/tasks
-
-POST /api/tasks
-
-PUT /api/tasks/:id
-
-DELETE /api/tasks/:id
-
-You can mock this using tools like JSON Server, Express, or connect it to your existing backend.
-
-4. Run the App
+**4. Run the App**
 
 npm run dev
 
 
-📌 Author
+**📌 Author**
 
 Built with ❤️ by Pritom Dutta
 
